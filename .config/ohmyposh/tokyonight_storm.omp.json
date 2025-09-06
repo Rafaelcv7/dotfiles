@@ -29,7 +29,7 @@
           "background": "transparent",
           "foreground": "p:terminal-green",
           "properties": {
-              "command": "echo $USER@$HOSTNAME",
+              "command": "echo \"${USER^}@${HOSTNAME^}\"",
               "shell": "bash"
           }
         },

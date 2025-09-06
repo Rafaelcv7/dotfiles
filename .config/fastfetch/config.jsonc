@@ -1,0 +1,61 @@
+{
+  "logo": {
+    "type": "small",
+    "color": {
+      "1": "1;#ffffff",
+      "2": "1;#AAF0D1"
+    },
+    "padding": {
+      "top": 1
+    }
+  },
+  "display": {
+    "separator": "",
+    "color": {
+      "keys": "1;#8ec07c",
+      "separator": "0;94"
+    },
+    "key": { "width": 10 }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "1;#8ec07c",
+        "at": "0;#ffffff",
+        "host": "1;#AAF0D1"
+      }
+    },
+    "break",
+    {
+      "type": "os",
+      "format": "{2}"
+    },
+    {
+      "type": "wm",
+      "format": "{1}"
+    },
+    "cpu",
+    "memory",
+    "disk",
+    "uptime",
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "colors": [
+        "114",
+        "251",
+        "250",
+        "210",
+        "152",
+        "229",
+        "153",
+        "218",
+        "152",
+        "230"
+      ]
+    },
+    "break"
+  ]
+}
